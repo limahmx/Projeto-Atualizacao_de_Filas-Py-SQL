@@ -54,17 +54,21 @@ Fluxo geral:
 
 ## ▶️ Como Executar
 
-1° **Gerar os bancos fictícios:**
+1° **Carregar metodos:**
+
+   - metodos.py
+
+2° **Gerar os bancos fictícios:**
 
    - criar_bancos_ficticios.py
 
 
-2° **Atualizar o snapshot:**
+3° **Atualizar o snapshot:**
 
    - atualizar_filas.py
 
 
-3° **Verificar resultados:**
+4° **Verificar resultados:**
 
    - Tabela tb_imagem_fila_fev2025 no conexao_principal.db
 
