@@ -44,13 +44,13 @@ Fluxo geral:
 
 - logs/ (gerado após executar "atualizar_filas.py")
 
-  └── acompanhamento_fila.txt # Logs de execução (gerado após executar "atualizar_filas.py")
+  └── acompanhamento_fila.txt → Logs de execução (gerado após executar "atualizar_filas.py")
 
-- conexao_principal.db # Banco gerado [snapshot] (gerado após executar "criar_bancos_ficticios.py")
+- conexao_principal.db → Banco gerado [snapshot] (gerado após executar "criar_bancos_ficticios.py")
 
-- conexao_secundaria.db # Banco gerado [histórico] (gerado após executar "criar_bancos_ficticios.py")
+- conexao_secundaria.db → Banco gerado [histórico] (gerado após executar "criar_bancos_ficticios.py")
 
-- tb_imagem_fila_fev2025.csv # Exportação final (gerado após executar "atualizar_filas.py")
+- tb_imagem_fila_fev2025.csv → Exportação final (gerado após executar "atualizar_filas.py")
 
 ## ▶️ Como Executar
 
