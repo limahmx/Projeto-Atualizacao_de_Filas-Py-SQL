@@ -36,36 +36,35 @@ Fluxo geral:
 
 ## 📁 Estrutura dos Arquivos
 
-├── criar_bancos_ficticios.py # Gera os bancos de dados fictícios
+- [`criar_bancos_ficticios.py`](./criar_bancos_ficticios.py) → Gera os bancos de dados fictícios
 
-├── atualizar_filas.py # Atualiza o snapshot aplicando regras de negócio
+- [`atualizar_filas.py`](./atualizar_filas.py) → Atualiza o snapshot aplicando regras de negócio
 
-├── metodos.py # Funções utilitárias de conexão e logs
+- [`metodos.py`](./metodos.py) → Funções utilitárias de conexão e logs
 
-├── logs/ (gerado após executar "atualizar_filas.py")
+- logs/ (gerado após executar "atualizar_filas.py")
 
-│ └── acompanhamento_fila.txt # Logs de execução (gerado após executar "atualizar_filas.py")
+  └── acompanhamento_fila.txt # Logs de execução (gerado após executar "atualizar_filas.py")
 
-├── conexao_principal.db # Banco gerado [snapshot] (gerado após executar "criar_bancos_ficticios.py")
+- conexao_principal.db # Banco gerado [snapshot] (gerado após executar "criar_bancos_ficticios.py")
 
-├── conexao_secundaria.db # Banco gerado [histórico] (gerado após executar "criar_bancos_ficticios.py")
+- conexao_secundaria.db # Banco gerado [histórico] (gerado após executar "criar_bancos_ficticios.py")
 
-└── tb_imagem_fila_fev2025.csv # Exportação final (gerado após executar "atualizar_filas.py")
+- tb_imagem_fila_fev2025.csv # Exportação final (gerado após executar "atualizar_filas.py")
 
 ## ▶️ Como Executar
 
 1° **Carregar metodos:**
 
-   - metodos.py
+   - [`metodos.py`](./metodos.py)
 
 2° **Gerar os bancos fictícios:**
 
-   - criar_bancos_ficticios.py
-
+   - [`criar_bancos_ficticios.py`](./criar_bancos_ficticios.py)
 
 3° **Atualizar o snapshot:**
 
-   - atualizar_filas.py
+   - [`atualizar_filas.py`](./atualizar_filas.py)
 
 
 4° **Verificar resultados:**
